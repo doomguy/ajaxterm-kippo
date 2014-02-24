@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 
-PLAYLOG_UTIL = '/home/honeypot/kippo-0.5/utils/playlog.py'
-PLAYLOG_TTY  = '/home/honeypot/kippo-0.5/log/tty/'
+PLAYLOG_UTIL = '/opt/kippo/utils/playlog.py'
+PLAYLOG_TTY  = '/opt/kippo/log/tty/'
 
 
 """ Ajaxterm """
@@ -24,6 +24,7 @@ class Terminal:
 	def init(self):
 		self.esc_seq={
 			"\x00": None,
+			"\x01": None,
 			"\x05": self.esc_da,
 			"\x07": None,
 			"\x08": self.esc_0x08,
