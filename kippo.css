@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: #ccc;
+    font-family: Verdana, Arial, Hevlvetica, sans-serif;
+    font-size: 14px;
+}
+h1 {
+    color: #ccc;
+}
+a {
+    color: #c77;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline
+}
+a:active {
+    color: white;
+}
